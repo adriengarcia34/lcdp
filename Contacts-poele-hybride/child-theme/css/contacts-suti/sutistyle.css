@@ -1,0 +1,88 @@
+table.tab_contact
+{
+	border-collapse: collapse;
+
+}
+
+.tab_contact th
+{
+    color:black;
+    border: 2px solid black;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.tab_contact td
+{
+    color:black;
+	text-align: center;
+    border: 2px solid black;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.suti_recherche
+{
+    padding: 5px;
+}
+
+tr.suti_accepte
+{
+    background-color:#b0ffaa;
+}
+
+tr.suti_warning
+{
+	background-color:#ffe48e;
+}
+
+tr.suti_refus
+{
+    background-color:#ffaaaa;
+}
+
+div.suti_formulaire_refus
+{
+	visibility: hidden;
+}
+
+.h1action
+{
+    color:black;
+}
+
+.suti_recherche_nom td
+{
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*JS Pagination*/
+input[type="button"] {
+    transition: all .3s;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input[type="button"]:not(.active) {
+    background-color:transparent;
+}
+
+.active {
+    background-color: #ff4d4d;
+    color :#fff;
+}
+
+input[type="button"]:hover:not(.active) {
+    background-color: #ddd;
+}
+/*Fin JS Pagination*/
